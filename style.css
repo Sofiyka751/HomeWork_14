@@ -1,0 +1,218 @@
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color-text: #252B42;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container, .container_1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_list {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 94px;
+}
+
+.title{
+    font-family: Poppins;
+}
+
+.item {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: var(--header-color-text);
+}
+
+.item:hover {
+    color: #FA4A0C;
+}
+
+/* main */
+
+/* section */
+
+.butt {
+    background-image: url(./photo/Rectangle\ 48.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.butt1 {
+    background-image: url(./photo/Rectangle\ 47.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ups, .ups1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 170px;
+    color: aliceblue;
+}
+
+.h3k, .h3m {
+    color: #FA4A0C;
+}
+
+.h2vn, .h2vnl {
+    color: gray;
+    font-size: 18px;
+}
+
+.h1photo, .h1photov {
+    font-size: 27px;
+}
+
+.h1s {
+    text-align: center;
+    font-size: 30px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot img {
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.list {
+    background-color: #FA4A0C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.list:hover {
+    background-color: darkorange;
+}
+
+.list1 {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.list1:hover {
+    background-color: rgba (255, 255, 255, 0.2);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.nice {
+    margin-left: 100px;
+}
+
+.texts {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 300px;
+    text-align: left;
+    white-space: pre;
+}
+
+.linkm {
+    display: flex;
+    align-items: center;
+}
+
+.cool {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    white-space: pre;
+    padding-left: 150px; 
+}
+
+.nicem {
+    padding-left: 350px;
+}
+
+.title1 {
+ font-size: 30px;
+}
+
+.text1 {
+font-size: 20px;
+}
+
+.title {
+    font-size: 35px;
+    white-space: pre;
+}
+
+.text {
+ font-size: 18px;
+}
+
+.tub {
+    font-family: Montserrat;
+}
+
+.title1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.text, .text1 {
+    font-family: Montserrat;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-top: 0;
+}
+
+.list {
+    margin-right: 20px;
+}
+
+.title1 {
+    margin-bottom: 10px;
+}
+
+.text1 {
+    margin-top: 0;
+}
